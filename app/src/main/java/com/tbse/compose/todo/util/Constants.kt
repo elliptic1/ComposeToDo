@@ -5,6 +5,6 @@ package com.tbse.compose.todo.util
  * Copyright TBSE 2022
  */
 object Constants {
-    const val DATABASE_TABLE = "database_table"
-    const val DATABASE_NAME = "database_name"
+    const val DATABASE_TABLE = "todo_table"
+    const val DATABASE_NAME = "todo_db_name"
 }
