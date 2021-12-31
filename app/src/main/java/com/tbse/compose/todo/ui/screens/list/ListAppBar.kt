@@ -12,12 +12,18 @@ import com.tbse.compose.todo.ui.theme.topAppBarContentColor
  * Created by toddsmith on 12/31/21.
  */
 @Composable
-fun ListAppBar() {
-    DefaultListAppBar()
+fun ListAppBar(
+    onSearchClicked: () -> Unit
+) {
+    DefaultListAppBar{
+        onSearchClicked()
+    }
 }
 
 @Composable
-fun DefaultListAppBar() {
+fun DefaultListAppBar(
+    onSearchClicked: () -> Unit
+) {
     TopAppBar(
         title = {
             Text(
@@ -25,7 +31,12 @@ fun DefaultListAppBar() {
                 color = MaterialTheme.colors.topAppBarContentColor
             )
         },
-        backgroundColor = MaterialTheme.colors.topAppBarBackgroundColor
+        backgroundColor = MaterialTheme.colors.topAppBarBackgroundColor,
+        actions = {
+            ListAppBarActions {
+                onSearchClicked()
+            }
+        }
     )
 }
 
@@ -51,8 +62,11 @@ fun SearchAction(
     }
 }
 
+
 @Composable
 @Preview
 fun DefaultListAppBarPreview() {
-    DefaultListAppBar()
+    DefaultListAppBar(
+        {}
+    )
 }

@@ -26,7 +26,9 @@ fun ListScreen(
             ListFab(navigateToTaskScreen = navigateToTaskScreen)
         },
         topBar = {
-            ListAppBar()
+            ListAppBar(
+                onSearchClicked = {}
+            )
         }
     )
 }
