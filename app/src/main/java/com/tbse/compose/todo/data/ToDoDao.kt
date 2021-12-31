@@ -7,7 +7,6 @@ import kotlinx.coroutines.flow.Flow
 
 /**
  * Created by toddsmith on 12/7/21.
- * Copyright TBSE 2022
  */
 @Dao
 interface ToDoDao {

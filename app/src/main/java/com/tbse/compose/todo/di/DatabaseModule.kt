@@ -13,7 +13,6 @@ import javax.inject.Singleton
 
 /**
  * Created by toddsmith on 12/7/21.
- * Copyright TBSE 2022
  */
 @Module
 @InstallIn(SingletonComponent::class)

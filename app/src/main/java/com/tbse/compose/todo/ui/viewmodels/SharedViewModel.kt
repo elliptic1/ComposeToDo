@@ -13,7 +13,6 @@ import javax.inject.Inject
 
 /**
  * Created by toddsmith on 12/11/21.
- * Copyright TBSE 2022
  */
 @HiltViewModel
 class SharedViewModel @Inject constructor(

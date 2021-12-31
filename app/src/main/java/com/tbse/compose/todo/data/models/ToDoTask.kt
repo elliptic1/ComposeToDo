@@ -6,7 +6,6 @@ import com.tbse.compose.todo.util.Constants.DATABASE_TABLE
 
 /**
  * Created by toddsmith on 12/7/21.
- * Copyright TBSE 2022
  */
 @Entity(tableName = DATABASE_TABLE)
 data class ToDoTask(

@@ -6,7 +6,6 @@ import com.tbse.compose.todo.util.Constants.LIST_SCREEN
 
 /**
  * Created by toddsmith on 12/30/21.
- * Copyright TBSE 2022
  */
 class Screens(navController: NavHostController) {
     val list: (Action) -> Unit = { action ->

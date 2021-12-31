@@ -7,7 +7,6 @@ import javax.inject.Inject
 
 /**
  * Created by toddsmith on 12/11/21.
- * Copyright TBSE 2022
  */
 class ToDoRepository @Inject constructor(
     private val toDoDao: ToDoDao

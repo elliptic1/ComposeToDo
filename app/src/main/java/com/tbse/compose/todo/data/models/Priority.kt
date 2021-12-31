@@ -8,7 +8,6 @@ import com.tbse.compose.todo.ui.theme.NonePriorityColor
 
 /**
  * Created by toddsmith on 12/7/21.
- * Copyright TBSE 2022
  */
 enum class Priority(val color: Color) {
     HIGH(HighPriorityColor),

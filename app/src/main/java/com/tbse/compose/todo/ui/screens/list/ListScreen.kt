@@ -15,7 +15,6 @@ import com.tbse.compose.todo.ui.theme.fabBackgroundColor
 
 /**
  * Created by toddsmith on 12/31/21.
- * Copyright TBSE 2022
  */
 @Composable
 fun ListScreen(

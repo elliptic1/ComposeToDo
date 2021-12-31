@@ -6,7 +6,6 @@ import com.tbse.compose.todo.data.models.ToDoTask
 
 /**
  * Created by toddsmith on 12/7/21.
- * Copyright TBSE 2022
  */
 @Database(entities = [ToDoTask::class], version = 1, exportSchema = false)
 abstract class ToDoDatabase : RoomDatabase() {
